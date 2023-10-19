@@ -19,7 +19,7 @@
             <a href="/" class="nav-item nav-link {{ check('/') }}">Home</a>
             <a href="{{ url('product') }}" class="nav-item nav-link {{ check('product') }}">Product</a>
             <div class="nav-item dropdown">
-                <a href="#" class="nav-link dropdown-toggle " data-bs-toggle="dropdown">Project</a>
+                <a href="#" class="nav-link dropdown-toggle " data-bs-toggle="dropdown">Pages</a>
                 <div class="dropdown-menu bg-light m-0">
                     <a href="{{ url('/about') }}" class="dropdown-item {{ check('about') }}">About</a>
                     <a href="{{ url('/galeri') }}" class="dropdown-item {{ check('galery') }}">Galery</a>
